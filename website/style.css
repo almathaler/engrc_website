@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    background-color: rgb(234, 210, 214);
+    font-family: Arial, sans-serif;
+}
+
+.top_container {
+    border: 10px solid rgb(196, 210, 196);
+    box-sizing: border-box;
+    display: flex;
+}
+
+.profile {
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+.profile img {
+    max-width: 80%;
+    border: 5px solid rgb(196, 210, 196);
+}
+
+.content_container {
+    flex: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.title_container {
+    padding: 20px;
+}
+
+.title {
+    color: rgb(77, 83, 77);
+    margin: 0;
+    padding: 0;
+}
+
+.bar {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(196, 210, 196);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about_container {
+    padding: 20px;
+}
+
+.interests_container {
+    padding: 20px;
+}
+
+.projects_container {
+    padding: 20px
+}
+
+.subtitle {
+    color: rgb(77, 83, 77);
+    margin: 0;
+    padding: 0;
+}
+
+.subtitle_bar {
+    width: calc(100% - 40px);
+    height: 5px;
+    background-color: rgb(196, 210, 196);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.textbox {
+    color: rgb(77, 83, 77);
+    background-color: rgb(244, 231, 233);
+    padding: 10px;
+    border-radius: 5px;
+}
