@@ -1,0 +1,148 @@
+/* styles.css */
+
+/* Nav bar style */
+nav ul {
+    list-style-type: none;
+    /* Remove bullet points from the list */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* Center align the navbar items */
+}
+
+nav ul li {
+    display: inline-block;
+    /* Display navbar items inline */
+    margin-right: 10px;
+    /* Add margin between each navbar item */
+}
+
+nav ul li a {
+    color: rgb(77, 83, 77);
+    /* White text color for navbar links */
+    text-decoration: none;
+    /* Remove underlines from links */
+    padding: 10px 20px;
+    /* Add padding to the links */
+    background-color: rgb(196, 210, 196);
+    /* Background color for the buttons */
+    border: 3px solid rgb(196, 210, 196);
+    /* Add border around the links */
+    border-radius: 5px;
+    /* Add border radius to create rounded corners */
+    transition: background-color 0.3s ease;
+    /* Add transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: rgb(127, 138, 127);
+    /* Darker background color when hovering over a link */
+}
+
+/* Content style */
+body {
+    margin: 0px;
+    background-color: rgb(234, 210, 214);
+    font-family: Arial, sans-serif;
+}
+
+.top_container {
+    /* border: 10px solid rgb(196, 210, 196); */
+    box-sizing: border-box;
+    display: flex;
+}
+
+.profile {
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+.profile img {
+    max-width: 80%;
+    border: 5px solid rgb(196, 210, 196);
+}
+
+.profile_content {
+    max-width: 80%;
+}
+
+.content_container {
+    flex: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.title_container {
+    padding: 20px;
+}
+
+.title {
+    color: rgb(77, 83, 77);
+    margin: 0;
+    padding: 0;
+}
+
+.bar {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(196, 210, 196);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.section_container {
+    padding: 20px;
+}
+
+.subtitle {
+    color: rgb(77, 83, 77);
+    margin: 0;
+    padding: 0;
+}
+
+.subtitle_bar {
+    width: calc(100% - 40px);
+    height: 5px;
+    background-color: rgb(196, 210, 196);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.textbox {
+    color: rgb(77, 83, 77);
+    background-color: rgb(244, 231, 233);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns */
+    gap: 20px;
+    /* Gap between grid items */
+}
+
+.gallery-item {
+    align-self: center;
+}
+
+.gallery-item img {
+    border: 5px solid rgb(196, 210, 196);
+    /* Border same color as profile pic */
+    width: 80%;
+    /* Ensure images fill the container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.caption {
+    text-align: left;
+    margin-top: 10px;
+    color: rgb(77, 83, 77);
+}

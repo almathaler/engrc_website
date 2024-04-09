@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alma Thaler</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
 </head>
 
 <body>
@@ -13,44 +13,45 @@
         <div class="profile">
             <img src="pfp.png"
                 alt="A girl in a pink dress standing in front of a gold statue in a Harry Potter themed trainstation">
+            <div class="profile_content">
+                <div class="textbox">
+                    Contact Me: <br>
+                    Email: almathaler at gmail dot com <br>
+                    LinkedIn: <a href="https://www.linkedin.com/in/alma-thaler/">Add me!</a>
+                </div>
+            </div>
         </div>
         <div class="content_container">
             <div class="title_container">
                 <h1 class="title">Alma Thaler's Webpage</h1>
                 <div class="bar"></div>
-                <div class="textbox">Hello and welcome to my page!</div>
             </div>
-            <div class="about_container">
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="section_container">
                 <h2 class="subtitle">About</h2>
                 <div class="subtitle_bar"></div>
                 <div class="textbox">I am a current senior at Cornell, studying Computer Science in the College of
                     Engineering.</div>
             </div>
-            <div class="interests_container">
+            <div class="section_container">
                 <h2 class="subtitle">Interests</h2>
                 <div class="subtitle_bar"></div>
                 <div class="textbox">My academic interests are CS Theory and Compilers. Oustide of my major, I really
                     enjoy reading, especially reading poems.
                     <a href="https://web.cs.dal.ca/~johnston/poetry/index.html">This page</a> has a lot of poems that I
                     like!
-                    I also enjoy going to concerts, most of all for local Ithaca bands. I also enjoy travelling and
+                    I also enjoy going to concerts, most of all for local Ithaca bands. I also enjoy <a
+                        href="travel.html">traveling</a> and
                     spending time in nature.
                     <!-- Can add a travel album to my webpage -->
-                </div>
-            </div>
-            <div class="projects_container">
-                <h2 class="subtitle">Projects</h2>
-                <div class="subtitle_bar"></div>
-                <div class="textbox">As a freshman I conducted research with <a href="https://calyxir.org/">Calyx</a>
-                    (...)
-                    <br>
-                    As a sophomore I interned at Meta, working on the <a
-                        href="https://github.com/facebook/hhvm/tree/master/hphp/hack/src/hackc">HackC</a>
-                    team (...)
-                    <br>
-                    As a junior I interned at Jane Street. I did not work on anything open-source, but my project was to
-                    extend an OCaml
-                    PPX to derive certain traits for polymorphic variants
                 </div>
             </div>
         </div>
